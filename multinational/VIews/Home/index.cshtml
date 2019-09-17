@@ -1,0 +1,34 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model multinational.models.Follower
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Muntional Company</title>
+</head>
+<body>
+    <div>
+        <form asp-controller="Home" asp-action="Registrar">
+          
+            <label>Producto</label>
+            <input asp-for="producto"/><br/>
+            <label>Categoria</label>
+            <select asp-for="categoria">
+                <option>Eliga su tipo</option>
+                <option value="camioneta">Camioneta</option>
+                <option value="auto">Auto</option>
+            </select>
+            <input type="radio" asp-for="radio" value="nacional">nacional
+            <input type="radio" asp-for="radio" value="extranjero">extranjero
+            <br/>
+            <label>Precio</label>
+            <input asp-for="precio"/><br>
+            <input type="submit" value="Calcular">
+
+        </form>
+    </div>
+</body>
+</html>

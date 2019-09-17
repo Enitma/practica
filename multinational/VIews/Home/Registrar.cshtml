@@ -1,0 +1,14 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model multinational.models.Follower
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>La respuesta: <br>
+        categoria:@Html.DisplayTextFor(model => model.categoria)
+        <br>
+        nacionalidad:@Html.DisplayTextFor(model => model.radio)
+        <br>
+        precio:@Html.DisplayTextFor(model => model.imp)
+    </h1><br>
+</body>
+</html>

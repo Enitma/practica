@@ -1,0 +1,30 @@
+{
+  "FilePath": "c:\\Users\\ABRAHAM\\Desktop\\multinational\\multinational.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "multinational",
+  "Documents": [
+    {
+      "FilePath": "VIews\\Home\\index.cshtml",
+      "TargetPath": "VIews\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "VIews\\Home\\Registrar.cshtml",
+      "TargetPath": "VIews\\Home\\Registrar.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
